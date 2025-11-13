@@ -64,7 +64,7 @@
 	if(HAS_TRAIT(user, TRAIT_CURSE_RAVOX))
 		chance2hit -= 30
 
-	chance2hit = CLAMP(chance2hit, 5, 95)
+	chance2hit = CLAMP(chance2hit, 5, 93)
 
 	var/precision_roll = FALSE
 	var/accuracy_roll = FALSE
