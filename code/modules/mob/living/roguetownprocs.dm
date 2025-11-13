@@ -61,12 +61,12 @@
 	if(HAS_TRAIT(user, TRAIT_CURSE_RAVOX))
 		chance2hit -= 30
 
-	chance2hit = CLAMP(chance2hit, 5, 95)
+	chance2hit = CLAMP(chance2hit, 5, 93)
 
 	var/precision_roll = FALSE
 	var/accuracy_roll = FALSE
 	var/whiff_roll = FALSE
-	var/combined_whiff = (chance2hit * user.STAPER * 0.05) / 100
+	var/combined_whiff = chance2hit * user.STAPER * 0.05
 
 	if(check_zone(zone) == zone)
 		accuracy_roll = prob(chance2hit)	
@@ -77,7 +77,7 @@
 				to_chat(user, span_warning("Accuracy fail! [chance2hit]%"))
 			return BODY_ZONE_CHEST
 	else
-		precision_roll = prob(chance2hit - 10)
+		precision_roll = prob(chance2hit)
 		if(precision_roll)
 			return zone
 		else 
