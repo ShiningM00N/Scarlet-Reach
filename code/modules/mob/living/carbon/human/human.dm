@@ -335,11 +335,11 @@
 //port from vanderlin, proc used to redraw a mob anfter they've been skeletonized
 /mob/living/carbon/human/proc/skele_look()
 	dna.species.go_bald()
-	update_body_parts(redraw = TRUE)
 	underwear = "Nude"
-	//may not be necessary, needs testing
 	facial_hairstyle = "Shaved"
+	update_body()
 	update_hair()
+	update_body_parts(redraw = TRUE)
 
 
 //Used for new human mobs created by cloning/goleming/podding

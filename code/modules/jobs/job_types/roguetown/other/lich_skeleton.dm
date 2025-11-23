@@ -282,7 +282,6 @@ LICH SKELETONS
 		H.dna.species.soundpack_f = new /datum/voicepack/skeleton()
 //Skeletonizes our body
 	H.skeletonize(FALSE)
-	H.skele_look()
 	H.grant_undead_eyes()
 	H.ambushable = FALSE
 	if(H.charflaw)
@@ -291,6 +290,7 @@ LICH SKELETONS
 	H.faction = list("undead")
 	H.name = "Skeleton"
 	H.real_name = "Skeleton"
+	H.skele_look()
 
 
 //Adds our skeleton traits, then allows us to choose a new name, pronouns, and body frame. Also gives us a spell to explode ourselves if we get stuck.
