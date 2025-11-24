@@ -464,7 +464,7 @@
 /obj/structure/ritualcircle/dendor/proc/spiderkin(src)
 	var/ritualtargets = range(0, loc)
 	for(var/mob/living/carbon/human/target in ritualtargets)
-		to_chat(target,span_userdanger("The webs of nature itself wisper to me, the webs are eternal, long live the Hive"))
+		to_chat(target,span_userdanger("The webs of madness and nature whisper to me. The webs are eternal. Long live the Nest!"))
 		target.flash_fullscreen("redflash3")
 		target.emote("agony")
 		target.Unconscious(100)
