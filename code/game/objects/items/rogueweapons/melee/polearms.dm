@@ -1411,8 +1411,8 @@
 
 
 /obj/item/rogueweapon/greatsword/zwei/ogre
-	name = "big choppa"
-	desc = "DICE 'EM."
+	name = "Better Sword"
+	desc = "The mind of an ogre does not see trash in a field of discarded swords and corpses. He sees material to make a new weapon, with a light snack.."
 	icon_state = "ogre_sword"
 	minstr = 15 //have you seen the size of this thing??
 	smelt_bar_num = 2
@@ -1423,8 +1423,8 @@
 	wbalance = WBALANCE_HEAVY
 
 /obj/item/rogueweapon/mace/goden/steel/ogre
-	name = "wackin' stick"
-	desc = "SMASH 'EM."
+	name = "Mace of Malum"
+	desc = "Sometimes an ogre comes across an abandoned blacksmith's forge, and finds an intact anvil. Few minds but an ogre's can think to use a tool of pure creation to beat people to paste."
 	icon_state = "ogre_anvil"
 	force = 20
 	force_wielded = 40
@@ -1437,8 +1437,8 @@
 	max_integrity = 260
 
 /obj/item/rogueweapon/mace/goden/steel/ogre/graggar
-	name = "big klobba"
-	desc = "CRUSH 'EM!"
+	name = "Ogre's Mace"
+	desc = "Only a giant can effectively make use of this weapon. It has fed one at the expense of many lives."
 	icon_state = "ogre_mace"
 	force = 25
 	force_wielded = 50 // i dont even think thisll do much, compare it to the tetsubo

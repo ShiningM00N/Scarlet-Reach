@@ -12,7 +12,6 @@
 				/datum/species/anthromorphsmall,
 				/datum/species/lizardfolk,
 				/datum/species/dullahan,
-				/datum/species/ogre
 )
 	origin_desc = "An independent domain sandwiched between Otava and Grenzelhoft, positioned the eastern edge of the Greywall mountain range.<br> Scarlet Reach sits on a key \
 	passageway through the Greywall, and its harbor offers a neutral port for merchants and travelers. As a result, the Reach is host to a number of foreigners, including \

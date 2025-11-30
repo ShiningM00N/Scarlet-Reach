@@ -1,6 +1,6 @@
 /datum/advclass/ogre/cook
 	name = "Cook-Cook"
-	tutorial = "I's real hungry.. And I's... Can cook. "
+	tutorial = "Having travelled most of the known world, and serving in the noble courts of both humans and dwarves, you are among the truly legendary chefs of the modern era! You have no qualms working alongside the stunties, for they keep the ingredients flowing to your beautiful art."
 	allowed_sexes = list(MALE)
 	allowed_races = RACES_ALL_KINDS
 	outfit = /datum/outfit/job/roguetown/ogre/cook

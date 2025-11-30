@@ -581,8 +581,8 @@
 	item_d_type = "stab"
 
 /obj/item/rogueweapon/mace/cudgel/ogre
-	name = "weird cudgel"
-	desc = "This kinda looks like a bell ringer. There's no handle, so it's probably an emergency item."
+	name = "Head Knockah"
+	desc = "A bell ringer that's been repurposed by a crafty set of hands, its size can only be wielded effectively by a giant."
 	force = 25
 	icon = 'icons/roguetown/weapons/64.dmi'
 	icon_state = "ogre_cudgel"

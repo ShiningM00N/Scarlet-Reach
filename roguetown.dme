@@ -1685,6 +1685,7 @@
 #include "code\modules\jobs\job_types\roguetown\ogre\ogre.dm"
 #include "code\modules\jobs\job_types\roguetown\ogre\ogreclasses\avatar.dm"
 #include "code\modules\jobs\job_types\roguetown\ogre\ogreclasses\cook.dm"
+#include "code\modules\jobs\job_types\roguetown\ogre\ogreclasses\dumdum.dm"
 #include "code\modules\jobs\job_types\roguetown\ogre\ogreclasses\merc.dm"
 #include "code\modules\jobs\job_types\roguetown\ogre\ogreclasses\warlord.dm"
 #include "code\modules\jobs\job_types\roguetown\other\goblin.dm"

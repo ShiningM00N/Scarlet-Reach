@@ -886,8 +886,8 @@
 	..()
 
 /obj/item/rogueweapon/huntingknife/cleaver/ogre
-	name = "small choppa"
-	desc = "Mush 'em good."
+	name = "Meat Choppah"
+	desc = "Any good cook needs to prep their meat. Chop it, slice it, maybe even kill it before you do all that. Meant for the hands of a giant."
 	icon = 'icons/roguetown/weapons/64.dmi'
 	icon_state = "ogre_cleaver"
 	force = 25
