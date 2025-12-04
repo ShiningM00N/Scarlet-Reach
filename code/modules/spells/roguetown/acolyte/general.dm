@@ -180,14 +180,14 @@
 						to_chat(user, "<font color='purple'>I lose [devotion_cost] devotion!</font>")
 					else
 						healing_beam.End()
-						return FALSE
+						return TRUE
 				else
 					to_chat(user, span_warning("My devotion runs dry - I can call upon [user.patron.name] no further for the moment!"))
 					healing_beam.End()
-					return FALSE
+					return TRUE
 
 			healing_beam.End()
-			return FALSE
+			return TRUE
 		else
 			user.visible_message(span_info("[user] quickly lays their hands upon themselves!"))
 			apply_healing(target, user, get_situational_bonus(user, target))
@@ -559,7 +559,7 @@
 	antimagic_allowed = FALSE
 	recharge_time = 15 SECONDS
 	miracle = TRUE
-	devotion_cost = 150
+	devotion_cost = 50
 	var/blood_price_coefficient = 1.25
 	var/blood_vol_restore = 7.5 // base value
 	var/vol_per_skill = 3.75 // double at apprentice, triple at expert, quadruple at legendary
