@@ -539,6 +539,7 @@ GLOBAL_LIST_INIT(spells, typesof(/obj/effect/proc_holder/spell)) //needed for th
 			charge_counter++
 		if("holdervar")
 			adjust_var(user, holder_var_type, -holder_var_amount)
+	START_PROCESSING(SSfastprocess, src)
 	if(action)
 		action.UpdateButtonIcon()
 
