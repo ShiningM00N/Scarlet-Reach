@@ -374,7 +374,7 @@
 
 /obj/item/carvedgem/jade/wyrm
 	name = "joapstone wyrm"
-	desc = "A large sculpture of a wyrm made out of joapstone. Few wyrms remain in Faience, but their legacies continue to live on in the art of humens."
+	desc = "A large sculpture of a wyrm made out of joapstone. Looks like quite the fearsome beest."
 	icon_state = "dragon_jade"
 	grid_height = 64
 	grid_width = 32
@@ -488,7 +488,7 @@
 
 /obj/item/carvedgem/onyxa/snake
 	name = "onyxa snake statue"
-	desc = "A flying horned snake carved out of onyxa. Once considered a sacred animal of Subterra, now considered vermin."
+	desc = "A flying horned snake carved out of onyxa. Thankfully these creachers are not native to Scarlet Reach."
 	icon_state = "snake_onyxa"
 	grid_height = 64
 	grid_width = 32
@@ -610,7 +610,7 @@
 
 /obj/item/carvedgem/turq/ka
 	name = "ceruleabaster ka statue"
-	desc = "A large carving of a ka spirit from Lakkarian myth. Believed to help guide the recently parted to Necra's domain."
+	desc = "A large carving of a ka spirit from Naledi myth. Believed to help guide the recently parted to Necra's domain."
 	icon_state = "ka_turq"
 	grid_height = 64
 	grid_width = 32
@@ -618,7 +618,7 @@
 
 /obj/item/carvedgem/turq/scarab
 	name = "ceruleabaster scarab"
-	desc = "A large carving of a scarab made out of ceruleabaster. An insect sacred to Lakkarians. Scarabs are commonly seen at Lakkarian temples and mastabas."
+	desc = "A large carving of a scarab made out of ceruleabaster. Insects are often engraved upon Naledi tombs."
 	icon_state = "scarab_turq"
 	dropshrink = 0.8
 	grid_height = 64
